@@ -9,10 +9,8 @@
 
 public class Main {
     public static void main(String[] args) {
-       House house1 = new House("Via San Paolo", 2);
-       House house2 = new House("Via Vittorio Emanuele", 6 );
+       House house1 = new House();
+       House house2 = new House();
 
-       System.out.println("House 1 " + "is in " + house1.address + " and has " + house1.numberOfFloors + " floors");
-       System.out.println("House 2 " + "is in " + house2.address + " and has " + house2.numberOfFloors + " floors");
     }
 }

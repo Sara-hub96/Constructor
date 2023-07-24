@@ -1,14 +1,9 @@
 public class House {
 
-String address;
-int numberOfFloors;
+    String address;
+    int numberOfFloors;
 
-House(String address, int numberOfFloors){
-    this.address = address;
-    this.numberOfFloors = numberOfFloors;
-
-
-
-}
-
+    House() {
+        System.out.println("A new House object has been created!");
+    }
 }
