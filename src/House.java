@@ -3,7 +3,9 @@ public class House {
     String address;
     int numberOfFloors;
 
-    House() {
-        System.out.println("A new House object has been created!");
+    House(String address, int numberOfFloors) {
+        this.address = address;
+        this.numberOfFloors = numberOfFloors;
+        System.out.println("A new House has been created!");
     }
 }
